@@ -1,19 +1,75 @@
 body {
 	font-family: Helvetica;
 	background-color: #f5fbff;
-	padding-top: 0px;
+	padding-top: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 10px;
 }
 
-h1 {
+.site-header {
 	color: #f5fbff;
 	text-align: left;
 	background-color: #333333;
-	border-radius: 12px;
-	padding-left: 8px;
-	padding-right: 8px;
-	font-size: 250%;
+	border-radius: 16px;
+	padding-top: 0px;
+	padding-bottom: 8px;
+	padding-left: 14px;
+	padding-right: 14px;
+	font-size: 400%;
 	display: table;
+}
+
+.content {
+	display: table;
+	width:100%;
+	padding: 20px;
+}
+.content-body {
+	display: table-row;
+}
+.content-nav {
+	display: table-cell;
+	line-height: 130%
+}
+
+.content-post {
+	display: table-cell;
+}
+
+.content-post-title {
+	font-size: 250%;
+	padding-bottom: 20px;
+}
+
+.content-post-date {
+	font-size: 85%;
+	font-style: italic;
+	color: #444444;
+	padding-bottom: 20px;
+}
+
+.content-post-content {
+	font-size: 100%;
+}
+
+
+a:link {
+  color: #444444;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #444444;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666666;
+  text-decoration: underline;
+}
+
+a:active {
+  color: black;
+  text-decoration: underline;
 }
