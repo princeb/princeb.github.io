@@ -1,10 +1,24 @@
 body {
 	font-family: Helvetica;
 	background-color: #f5fbff;
-	padding-top: 20px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 10px;
+	padding: 20px;
+	
+}
+
+h1 {
+	font-size: 145%;
+	font-style: bold;
+}
+
+
+h2 {
+	font-size: 135%;
+	font-style: bold;
+}
+
+h3 {
+	font-size: 125%;
+	font-style: bold;
 }
 
 .site-header {
@@ -18,6 +32,7 @@ body {
 	padding-right: 14px;
 	font-size: 400%;
 	display: table;
+	margin: 30px;
 }
 
 .content {
@@ -30,27 +45,35 @@ body {
 }
 .content-nav {
 	display: table-cell;
-	line-height: 130%
+	line-height: 130%;
+	min-width: 150px;
+	max-width: 300px;
 }
 
+.content-nav-header {
+	display: table-cell;
+	font-size: 130%;
+	padding-bottom: 10px;
+}
 .content-post {
 	display: table-cell;
 }
 
 .content-post-title {
-	font-size: 250%;
-	padding-bottom: 20px;
+	font-size: 180%;
 }
 
 .content-post-date {
 	font-size: 85%;
 	font-style: italic;
 	color: #444444;
-	padding-bottom: 20px;
+	padding-top: 6px;
 }
 
 .content-post-content {
 	font-size: 100%;
+	padding-top: 12px;
+	max-width: 650px;
 }
 
 
