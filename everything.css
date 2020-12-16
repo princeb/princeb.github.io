@@ -1,0 +1,19 @@
+body {
+	font-family: Helvetica;
+	background-color: #f5fbff;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+h1 {
+	color: #f5fbff;
+	text-align: left;
+	background-color: #333333;
+	border-radius: 12px;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 250%;
+	display: table;
+}
